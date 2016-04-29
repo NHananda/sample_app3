@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nama:</strong>
+  <%= @biodatum.nama %>
+</p>
+
+<p>
+  <strong>Ttl:</strong>
+  <%= @biodatum.ttl %>
+</p>
+
+<p>
+  <strong>Alamat:</strong>
+  <%= @biodatum.alamat %>
+</p>
+
+<%= link_to 'Edit', edit_biodatum_path(@biodatum) %> |
+<%= link_to 'Back', biodata_path %>
